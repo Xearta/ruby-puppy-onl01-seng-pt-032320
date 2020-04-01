@@ -11,3 +11,8 @@ class Dog
     @@all
   end
 end
+
+fido = Dog.new("fido")
+puppers = Dog.new("puppers")
+
+p Dog.all
