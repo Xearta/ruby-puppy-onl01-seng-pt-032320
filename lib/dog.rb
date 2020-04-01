@@ -22,15 +22,3 @@ class Dog
     @@all.clear
   end
 end
-
-
-
-fido = Dog.new("fido")
-puppers = Dog.new("puppers")
-
-#p Dog.all
-fido.save
-puppers.save
-p Dog.print_all
-Dog.clear_all
-p Dog.print_all
