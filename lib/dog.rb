@@ -26,5 +26,6 @@ fido = Dog.new("fido")
 puppers = Dog.new("puppers")
 
 #p Dog.all
+fido.save
 puppers.save
 p Dog.print_all
