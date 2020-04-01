@@ -12,7 +12,7 @@ class Dog
   end
 end
 
-fido = Dog.new("fido")
-puppers = Dog.new("puppers")
+#fido = Dog.new("fido")
+#puppers = Dog.new("puppers")
 
-p Dog.all
+#p Dog.all
